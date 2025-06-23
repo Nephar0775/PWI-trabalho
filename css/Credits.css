@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: MainFont;
+  src: url(../fonts/TT\ Ramillas\ Trial\ Light.ttf);
+}
+
+@font-face {
+  font-family: ExtraLightFont;
+  src: url(../fonts/TT\ Ramillas\ Trial\ ExtraLight.ttf);
+}
+
+body{
+    background-color: #5CA2A4;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+div#CreditsContainer {
+    background: #133643;
+    border: #1c3d45;
+    border-radius: 100px;
+    width: 98%;
+    padding-top: 39%;
+    position: relative;
+    margin: auto;
+}
+
+h1 {
+    padding-bottom: 340px;
+    margin: auto;
+    position: absolute;
+
+    font-family: ExtraLightFont;
+    text-align: center;
+    line-height: 1.2;
+    color: #84BABB;
+    font-size: 50px;
+
+    top: 10px;
+    width: 100%;
+}
+
+p#LeftCredits {
+    position: absolute;
+    margin: auto;
+    font-size: 65px;
+    line-height: 1.2;
+    color: white;
+    top: 85px;
+    left: 25px;
+    
+}
+
+p#RightCredits {
+    position: absolute;
+    margin: auto;
+    font-size: 65px;
+    line-height: 1.2;
+    color: white;
+    top: 115px;
+    right: 25px;
+    text-align: right;
+}
+
+img {
+    top: 10px;
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+div#FirstTopicDescription {
+    position: relative;
+    padding-top: 25px;
+    margin: auto;
+
+    font-family: ExtraLightFont;
+    text-align: center;
+    line-height: 0;
+    color: #1c3d45;
+    font-size: 25px;
+}
+
+@media (max-width: 850px) {
+    p#LeftCredits {
+        font-size: 40px;
+    }
+    p#RightCredits {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 520px) {
+    p#LeftCredits {
+        font-size: 40px;
+    }
+    p#RightCredits {
+        font-size: 40px;
+    }
+}
